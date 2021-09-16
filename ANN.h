@@ -1,7 +1,5 @@
 %%writefile ANN.h
 
-#include <torch/torch.h>
-
 class ANN: public torch::nn::Module{
     public:
     ANN();
