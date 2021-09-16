@@ -1,5 +1,7 @@
 %%writefile ANN.cpp
 
+#include<ANN.h>
+
 ANN::ANN(){
     input = FCBN(node[0], nodes[1]);
     hidden = FCBN(nodes[1], nodes[2]);
